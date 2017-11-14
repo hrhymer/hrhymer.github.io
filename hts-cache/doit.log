@@ -1,0 +1,8 @@
+-q -%i -w https://www.trost.co.kr/#1 http://blue-core.com https://zigzag.kr http://applr.co.kr http://junggglex.com https://www.wahome.co.kr http://easi-way.com -O "/home/tits/websites/South Korea e27.co mobile" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -r2 -%e2 -A250000000 -F "" -%F "" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u
+File generated automatically on Sun, 12 Nov 2017 21:55:15, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+
