@@ -1,0 +1,1115 @@
+ /* ----------------------------------------------------------------
+	Custom CSS
+-----------------------------------------------------------------*/
+/* test */
+
+h1.t600.uppercase {
+    font-size: 42px;
+}
+.bg-primary {
+  background-color: #61CAE6;
+}
+.heading-block.white:after {
+  border-top: 2px solid #fff;
+}
+.p-info,
+.heading-block ~ p.p-info {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.bg-primary .p-info {
+  color: #fff;
+}
+.heading-block ~ p.p-sub-blue {
+  font-size: 15px;
+  color: #61CAE6;
+}
+.p-sub,
+.heading-block ~ p.p-sub-gray,
+.heading-block ~ a.p-sub-gray {
+  font-size: 15px;
+  color: #999;
+}
+.bg-white h1,
+.bg-white p,
+.bg-white .p-sub,
+.heading-block ~ p.p-sub {
+  color: #fff;
+}
+.link-checklist {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.booking_checkbox_wrapper.selected .booking_checkbox{
+  width: 30px;
+  height: 30px;
+  background: blue;
+}
+.booking_checkbox_wrapper.selected span{
+ color: #000000;
+}
+.booking_checkbox_wrapper .booking_checkbox{
+  width: 30px;
+  height: 30px;
+  background: red;
+}
+#booking_step2_day_wrapper > div {
+  display: inline;
+  margin-right: 20px;
+}
+#booking_step2_day_wrapper {
+  margin-top: 10px;
+  color: #9A9A9A;
+}
+#booking_step2_laundry #booking_step2_laundy_img{
+  width: 70px;
+  height: 96px;
+  background : url('https://www.wahome.co.kr/images/option1.svg');
+  background-size : 70px 96px;
+  background-repeat: no-repeat;
+}
+
+#booking_step2_laundry.selected #booking_step2_laundy_img{
+  width: 70px;
+  height: 96px;
+  background : url('https://www.wahome.co.kr/images/option1_on.svg');
+  background-size : 70px 96px;
+  background-repeat: no-repeat;
+}
+
+#booking_step2_fridge #booking_step2_fridge_img{
+  width: 70px;
+  height: 96px;
+  background : url('https://www.wahome.co.kr/images/option2.svg');
+  background-size : 70px 96px;
+  background-repeat: no-repeat;
+}
+
+#booking_step2_fridge.selected #booking_step2_fridge_img{
+  width: 70px;
+  height: 96px;
+  background : url('https://www.wahome.co.kr/images/option2_on.svg');
+  background-size : 70px 96px;
+  background-repeat: no-repeat;
+}
+
+#booking_step2_window #booking_step2_window_img{
+  width: 70px;
+  height: 96px;
+  background : url('https://www.wahome.co.kr/images/option3.svg');
+  background-size : 70px 96px;
+  background-repeat: no-repeat;
+}
+
+#booking_step2_window.selected #booking_step2_window_img{
+  width: 70px;
+  height: 96px;
+  background : url('https://www.wahome.co.kr/images/option3_on.svg');
+  background-size : 70px 96px;
+  background-repeat: no-repeat;
+}
+.booking_checkbox_wrapper {
+  display: block;
+  position: relative;
+}
+.booking_checkbox_wrapper .booking_checkbox {
+  width: 26px;
+  height: 26px;
+  background : url('https://www.wahome.co.kr/images/btn_check.svg');
+  background-size : 25px 25px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+.booking_checkbox_wrapper.selected .booking_checkbox {
+  width: 26px;
+  height: 26px;
+  background : url('https://www.wahome.co.kr/images/btn_check_on.svg');
+  background-size : 25px 25px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+.booking_checkbox_wrapper .right {
+  position: absolute;
+  font-size: 18px;
+  right: 10px;
+  top: 16px;
+  z-index: 2;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  cursor: pointer;
+}
+.team-desc.team-desc-bg {
+  background-color: rgba(255,255,255,0.3);
+  padding: 28px 0 1px;
+  border-radius: 10px;
+}
+#steps h3 {
+  font-size: 20px;
+}
+#steps span {
+  font-size: 14px;
+}
+#steps i {
+  text-shadow: none;
+}
+#steps img {
+  height: 200px;
+  float: right;
+}
+.service-img {
+  margin-bottom: 20px;
+}
+.service-img img {
+  height: 30px;
+}
+.group-clean {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+.clean-list .list-date {
+  font-size: 14px;
+}
+.clean-list .list-content {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.clean-list p {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.clean-btn-left {
+  float: left;
+  display: table;
+}
+.clean-btn-right {
+  float: right;
+  display: table;
+}
+.text-gray {
+  color: #bbb;
+}
+.img_helper {
+    width:80px;
+    height:80px;
+    border-radius:100px;
+    display:block;
+    margin:0px auto;
+}
+.detail_icon {
+    width:20px;
+    margin-right:10px;
+}
+.detail_content {
+    margin-left:30px;
+    margin-top:0px !important;
+    margin-bottom:10px !important;
+}
+.detail_extra {
+    background-color:#61cae6;
+    display:inline-block;
+    color:white;
+    padding-left:5px;
+    padding-right:5px;
+    border-radius: 5px;
+    margin-right:10px;
+}
+.bookings_detail_btns {
+    float: right;
+    cursor:pointer;
+    background-color:#61cae6;
+    color: white;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius: 5px;
+    margin-right:5px;
+}
+.bookings_update_btns {
+    float: right;
+    cursor:pointer;
+    background-color:#F9A825;
+    color: white;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius: 5px;
+    margin-right:5px;
+}
+.bookings_delete_btns {
+    float: right;
+    cursor:pointer;
+    background-color:white;
+    color: #bbb;
+    padding-left:9px;
+    padding-right:9px;
+    padding-top:4px;
+    padding-bottom:4px;
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px dashed;
+}
+.icon-gray i {
+  color: #ccc !important;
+}
+.col_one_third .feature-box.fbox-center .fbox-icon {
+  width: 120px;
+}
+.col_one_third .feature-box.fbox-center.fbox-plain .fbox-icon img {
+  height: 96px;
+}
+.fbox-icon-info img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+.fbox-icon-info-sm img {
+  width: 50px;
+  margin-bottom: 20px;
+}
+.fbox-icon-info-m img {
+  width: 80px;
+}
+.feature-box.fbox-center.fbox-small.fbox-plain .fbox-icon img {
+  height: 56px;
+}
+.form-content {
+  background-color: #f6f8f9 !important;
+}
+/*.form-content {
+  background-image: url(/images/pt_bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}*/
+.form-content .container {
+  width: 100% !important;
+}
+.form-content .row {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+/*.help-content {
+  background-image: url(/images/c_bg.png);
+  background-size: cover;
+}
+.login-content {
+  background-image: url(/images/c_bg.png);
+  background-size: cover;
+}*/
+.form-with-btn {
+  margin-bottom: 50px;
+  padding-left: 0;
+}
+.help-title {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.help-title h4 {
+  font-size: 20px;
+}
+.help-title p {
+
+}
+.help-title img {
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+#primary-menu ul > li > a {
+  font-size: 14px;
+}
+.appstore img {
+	padding-top: 20px;
+	margin: 10px 20px;
+}
+.slider-caption h2 {
+  margin-bottom: 10px;
+}
+.slider-caption h3 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+.slider-caption p {
+  font-size: 22px;
+  line-height: 1.4;
+  margin-top: 30px;
+}
+#slider-arrow-left,
+#slider-arrow-right { background-color: rgba(0,0,0,0);  }
+
+#slider-arrow-left i,
+#slider-arrow-right i { color: #ddd;
+    text-shadow: none; }
+
+.flex-control-nav li a { background-color: #fff !important;}
+
+.testimonial { border-radius: 0px;}
+
+.swiper_wrapper, .swiper-container {
+    height: 600px;
+}
+
+#footer .footer-widgets-wrap { padding: 40px 0; }
+#footer p {margin-bottom: 20px;}
+
+.hour-label {
+  text-align: center;
+  margin: 20px 0px 10px;
+  font-size: 15px;
+}
+
+ /* ----------------------------------------------------------------
+  Buttons
+-----------------------------------------------------------------*/
+
+.btn {
+  background-color: #61CAE6;
+  padding: 0 26px;
+  height: 50px;
+  min-width: 200px;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 2;
+  color: #fff;
+  text-align: center;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  margin-right: 8px;
+  margin-bottom: 24px;
+}
+.btn-submit {
+  width: 100%;
+  background-color: #61cae6;
+  padding: 26px;
+  height: auto;
+  line-height: 16px;
+}
+.booking-btn{
+  margin-right : 30px !important;
+}
+.reverse-btn{
+  background-color: white !important;
+  color: #61CAE6 !important;
+}
+.btn-border {
+  border: 1px solid #61CAE6;
+  color: #61CAE6;
+  background-color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  min-width: 0;
+  padding: 2px 10px 0 10px;
+  width: 100%;
+  height: 45px;
+}
+.btn-small {
+  min-width: 80px;
+  height: 45px;
+}
+.btn-form {
+  padding: 0 20px;
+  min-width: 80px;
+  height: 50px;
+  margin-top: 32px;
+}
+.btn-form-border {
+  border: 1px solid #61CAE6;
+  color: #61CAE6;
+  background-color: #f6f8f9;
+}
+.btn-group .btn {
+  margin-right: 0;
+}
+.check-btns {
+  width: 100%;
+  display: table;
+  padding: 0;
+  margin: 30px 0 0 0;
+}
+.check-btns .col-xs-6, .check-btns .col-md-3 {
+  padding: 0 10px;
+}
+
+.btn:last-child,
+.btn:last-of-type {
+  margin-right: 0;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #4b9cb3;
+}
+.btn:focus {
+ color: #fff;
+}
+.btn.selected {
+  color: #fff;
+  background-color: #61CAE6;
+}
+.btn-group .btn:hover, .btn-border:hover, .btn-form-border:hover {
+  color: #fff;
+  background-color: #61CAE6;
+}
+
+.btn-rounded {
+  border-radius: 25px;
+}
+body.btn-rounded .btn {
+  border-radius: 25px !important;
+}
+
+
+ /* ----------------------------------------------------------------
+  Form
+-----------------------------------------------------------------*/
+
+.form-main {
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 66.66667%;
+  float: left;
+}
+.main-center {
+  float: none;
+  margin: 0 auto;
+}
+.form-sidebar {
+  right: 15%;
+  padding-left: 1em;
+  padding-right: 0em;
+  max-width: 320px;
+  width: 100%;
+  float: left;
+  display: inherit;
+  color: #4A4A4A;
+}
+.sidebar-menu {
+  width: 20%;
+}
+.well {
+  background-color: #fff;
+  border: none;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+.well-clean {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+.well-login {
+  padding: 40px 40px 20px 40px;
+}
+.well-terms {
+  padding: 5em;
+}
+.paragraph-content {
+  padding-left: 7.5em;
+  padding-right: 7.5em;
+}
+.form-group {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.form-section {
+  border-bottom: 1px solid #efefef;
+  width: 100%;
+  padding-top: 20px;
+  display: table;
+}
+.form-section .noborder {
+  border-bottom: none;
+}
+.section-main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.title-icon {
+  font-size: 18px;
+  color: #61CAE6;
+  font-weight: 800;
+  margin-right: 15px;
+}
+.section-row {
+  width: 100%;
+  margin: 0 auto;
+  display: table;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.section-header {
+    margin:0px auto;
+    text-align: center;
+}
+
+.section-header p {
+    display:inline-block;
+    margin-left:5px;
+}
+
+.section-stage {
+    margin:0px auto;
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+.stage {
+    display: inline-grid;
+}
+.stage img {
+    width:30px;
+    margin:10px;
+}
+.stage span{
+    text-align: center;
+}
+.row-option {
+  margin-top: -20px;
+}
+.section-title {
+  float: left;
+  width: 60%;
+}
+.title-price {
+  font-size: 17px;
+}
+.section-icon {
+  float: left;
+  width: 100%;
+  font-size: 15px;
+  margin-top: -4px;
+}
+.section-amount {
+  float: left;
+  width: 40%;
+  text-align: right;
+}
+.amount-price {
+  font-size: 20px;
+  color: #61cae6;
+}
+.section-option {
+  margin-left: 35px;
+  color: #61cae6;
+}
+.option-no-icon {
+  margin-left: 0;
+}
+.form-line {
+  margin-top: 15px;
+}
+.form-control {
+  height: 50px;
+  padding: 6px 15px;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 0px #efefef;
+  box-shadow: 0 1px 0px #efefef;
+}
+
+.form-control.error {
+  border-color: #f44;
+}
+
+.form-control:hover, .form-control:focus {
+  border: 1px solid #61cae6;
+}
+.form-control::-moz-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #ccc;
+}
+.form-control::-webkit-input-placeholder {
+  color: #ccc;
+}
+.form-login {
+  height: 45px;
+}
+
+.creditcards {
+  margin-top: 40px;
+}
+
+.form-content .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+label {
+  font-size: 15px;
+  font-weight: 400;
+  color: #999;
+}
+small {
+  color: #61cae6;
+}
+.white small {
+  color: #fff;
+}
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+select::-ms-expand { /* for IE 11 */
+    display: none;
+}
+.select-option {
+  position: relative;
+}
+
+.form-error {
+  font-size: 16px;
+  padding: 10px;
+  font-weight: bold;
+  color: #f44;
+}
+
+.form-control.counter-label {
+  font-weight: bold;
+  line-height: 35px;
+  text-align: center;
+}
+
+.control-box {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.select-option > .select-control {
+  position: absolute;
+  font-size: 18px;
+  padding: 15px;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  background: #61cae6;
+  color: #fff;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.select-option > .select-control.disabled {
+  background: #ddd;
+}
+
+.select-option > .select-control.right {
+  right: 0px;
+}
+.select-option > .select-control.left {
+  left: 0px;
+}
+
+.select-option i.right {
+  position: absolute;
+  font-size: 18px;
+  right: 20px;
+  top: 16px;
+  z-index: 2;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  cursor: pointer;
+}
+.select-option i.left {
+  position: absolute;
+  font-size: 18px;
+  left: 20px;
+  top: 16px;
+  z-index: 2;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  cursor: pointer;
+}
+.selet-option .form-control {
+  background-color: #fff;
+}
+.select-option .list-group-item {
+  border-top: none;
+}
+.select-option .list-group-item:hover {
+  color: #61CAE6;
+}
+.checkbox-option,
+.radio-option {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  border-radius: 25px;
+  border: 1px solid #61cae6;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-bottom: 20px;
+}
+.checkbox-option .inner,
+.radio-option .inner {
+  width: 19px;
+  height: 19px;
+  font-size: 16px;
+  color: #61cae6;
+  position: relative;
+  display: inline-block;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+}
+.checkbox-option.selected,
+.radio-option.selected {
+  border: 1px solid #999;
+}
+.checkbox-option.selected .inner,
+.radio-option.selected .inner {
+  color: #999;
+}
+.radio-option, .chekcbox-option {
+  width: 25px;
+  height: 25px;
+  text-align: left;
+}
+.radio-option:nth-of-type(n+2) {
+  margin-left: 24px;
+}
+.radio-option input, .checkbox-option input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+.radio-option .inner, .checkbox-option .inner {
+  border: none;
+  width: 19px;
+  height: 19px;
+  top: 0;
+  left: 4px;
+  transform: scale(0);
+  -webkit-transform: scale(0);
+}
+.radio-option + span, .checkbox-option + span {
+  display: inline-block;
+  line-height: 25px;
+}
+.radio-option.checked .inner, .checkbox-option.checked .inner {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+}
+.radio-option.selected .inner, .checkbox-option.selected .inner {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+}
+.option-icon {
+  max-width: 70px;
+  max-height: 96px;
+}
+
+.star_rating {font-size:0; letter-spacing:-4px;}
+.star_rating a {
+    font-size:25px;
+    letter-spacing:0;
+    display:inline-block;
+    margin-left:5px;
+    color:#ccc;
+    text-decoration:none;
+}
+.star_rating a:first-child {
+    margin-left:0;
+}
+.star_rating a.on {
+    color:#F9A825;
+}
+
+.helper_comment {
+    border:1.5px dashed lightgray;
+    width: 90%;
+    border-radius: 5px;
+    padding:5px 5px 5px 10px;
+}
+
+
+ /* ----------------------------------------------------------------
+   Responsive CSS
+ -----------------------------------------------------------------*/
+
+@media only screen and (max-width: 991px) {
+    .stage img {
+        width: 30px;
+        margin: 0px auto;
+    }
+
+    .img_stage_dot {
+      width:40px;
+      vertical-align: text-top;
+      margin:0px;
+  }
+
+  #page-submenu-trigger {
+    display: none;
+  }
+  .form-main, .form-sidebar, .form-list {
+    width: 100%;
+    float: none;
+  }
+  .row {
+    margin: 0;
+  }
+  .creditcards {
+    margin-top: -10px;
+  }
+  .swiper_wrapper:not(.force-full-screen),
+  .swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide,
+  .ei-slider {
+    height: 500px !important;
+  }
+  .form-main, .main-center {
+    margin: 0;
+    padding: 0;
+  }
+  .section-main {
+    margin-top: 40px;
+  }
+  #steps .col_one_third {
+    display: none;
+  }
+  .swiper_wrapper .slider-caption h2 {
+    font-size: 28px;
+    letter-spacing: -0.5pt;
+    line-height: 1.3;
+  }
+  .help-title {
+    width: 100%;
+  }
+  .clean-btn-left, .clean-btn-right {
+    width: 100%;
+    float: none;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    text-align: center;
+  }
+  .btn-group {
+    width: 100%;
+  }
+  .clean-btn-left button {
+    width: 45%;
+    margin: 20px 0;
+  }
+  .clean-btn-right button {
+    width: 90%;
+    margin-top: 0;
+  }
+  .paragraph-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .emphasis-title h1, .emphasis-title h2 {
+    font-size: 28px !important;
+  }
+
+  h1.t600.uppercase {
+    font-size: 28px;
+  }
+  .container,
+  #header.full-header .container,
+  .container-fullwidth {
+    width: auto !important;
+  }
+
+  .booking-btn{
+    margin-right : 0 !important;
+    margin-bottom : 0 !important;
+  }
+  .reverse-btn{
+    margin-top : 10px !important;
+  }
+  #booking_step2_promotion {
+    margin-bottom: 10px !important;
+  }
+  #booking_step2_be_at_home {
+    margin-left: 10px !important;
+  }
+  #booking_step2_thu {
+    margin-right: 100% !important;
+  }
+  #booking_step2_day_wrapper {
+    line-height: 50px;
+  }
+  #booking_step2_promotion_submit {
+    min-width: 40%; !important;
+    width: 100%; !important;
+  }
+  #booking_step2_card_wrapper .select-option {
+    width: 100% !important;
+  }
+  #booking_step2_card_wrapper label {
+    margin-bottom: 10px !important;
+  }
+  #booking_step2_creditcard_number {
+    margin-bottom: 10px;
+  }
+  #booking_step2_creditcard_month_wrapper {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  #booking_step2_creditcard_birth_wrapper {
+    width: 45% !important;
+    margin-right: 3% !important;
+  }
+  #booking_step2_creditcard_password_wrapper {
+    width: 45% !important;
+  }
+  .form-sidebar {
+    max-width: 100% !important;
+  }
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+.wh_main_image{
+  width: 100%;
+  height: 450px;
+  background-image: url('http://wahome.co.kr/app_images/main150903_0.jpg');
+  background-position: 82% 50%;
+  background-size: cover;
+}
+.wh_main_image .title {
+  padding-top: 70px;
+  font-size: 28px;
+}
+.wh_main_image .subtitle {
+  font-size:16px;
+  font-weight: bold;
+  text-align: center;
+}
+.wh_main_image .btn-wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wh_main_image .booking-btn {
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.wh_main_image .apply-btn {
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+#google-map-inner {
+  width: 260px;
+  height: 160px;
+  background : url('https://www.wahome.co.kr/images/map.png');
+  background-size : 260px 160px;
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  .wh_main_image{
+    width: 100%;
+    height: 500px;
+  }
+  .wh_main_image .title {
+     padding-top: 120px;
+     font-size:60px;
+  }
+  .wh_main_image .subtitle {
+     font-size: 18px;
+  }
+    .img_stage_dot {
+        width:60px;
+        vertical-align: text-top;
+        margin-left:10px;
+        margin-right:10px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .wh_main_image{
+    width: 100%;
+    height: 500px;
+  }
+  .wh_main_image .title {
+    padding-top: 130px;
+    font-size:60px;
+  }
+  .wh_main_image .subtitle {
+    font-size: 18px;
+  }
+  .wh_main_image .btn-wrapper {
+    width: 430px;
+    margin-top: 60px;
+  }
+  .wh_main_image .booking-btn {
+    display: inline-block;
+  }
+  .wh_main_image .apply-btn {
+    display: inline-block;
+    margin-left: 10px !important;
+  }
+  #google-map-inner {
+    width: 350px;
+    height: 200px;
+    background : url('https://www.wahome.co.kr/images/map.png');
+    background-size : 350px 200px;
+    background-repeat: no-repeat;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .wh_main_image{
+    width: 100%;
+    height: 550px;
+  }
+  .wh_main_image .title {
+    padding-top: 140px;
+    font-size:60px;
+  }
+  .wh_main_image .subtitle {
+    font-size: 18px;
+  }
+  .wh_main_image .btn-wrapper {
+    width: 430px;
+    margin-top: 60px;
+  }
+  .wh_main_image .booking-btn {
+    display: inline-block;
+  }
+  .wh_main_image .apply-btn {
+    display: inline-block;
+    margin-left: 10px !important;
+  }
+}
